@@ -1,0 +1,55 @@
+header{
+    display: flex;
+    justify-content: center;
+    background-color: ghostwhite;
+}
+.mi-imagen {
+    width: 50%;
+    height: auto;
+    max-width: 100px;
+    display: block;
+    margin: auto;
+}
+
+#titulo {
+    text-align: center;
+    background-color: gray;
+}
+#dt{
+    margin-top: 8%;
+}
+#datos {
+    background-color: gray;
+}
+#academica {
+    background-color: gray;
+}
+#experiencia {
+    background-color: gray;
+}
+footer {
+    background-color: rgb(69, 163, 176);
+    padding: 5px;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#fin {
+    margin: auto;
+}
+.istagram {
+    width: 10%;
+    height: auto;
+    max-width: 20px;
+    display: block;
+    margin-left: 50px;
+}
+.in {
+    width: 10%;
+    height: auto;
+    max-width: 30px;
+    display: block;
+    margin-right: -5px;
+}
