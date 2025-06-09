@@ -1,133 +1,204 @@
-body {
-    margin: 0;
-    padding: 0;
-    background-color: rgb(226, 223, 223);
-    justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
-    display: block;
-    gap: 0;
-    width: 100%;
-    overflow-x: hidden;
+header{
+    background-color: white;
+    align-items: center;
+    display: flex;
+    margin-right: 80px;
+    justify-content: end;
+   +flex-direction: row;
+   width: 100vw;
+   height: 120px;
+    
 }
-.logo{
-    background-color: black;
+.logo{ 
     margin: 0;
     padding: 30px 135;
     width: 100vw;
+   
+}
+    
 
+img{
+    width: 100px;
+}
+.login{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #96BB7C;
+    text-align: right;
+    margin-right: 10px;
+    
+}
+.boton{
+   margin-right: 150px;
 }
 
 .caja1{
     width: 100vw;
-    height: 700px;
-    margin: -3px;
-    padding: 35px;
+    height: 600px;
+    margin: -5px;
+    padding: 60px;
     display: flex;
-    background-color: black;
+    background-color: #DDF4FF;
     align-items: center;
-    color: white;
+    color: black;
     justify-content: center;
     gap: 35px;
 
 }
-
-.texto{
+.parte1{
     width: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 28px;
+    
 }
-
-.titulo1 {
+.par1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #96BB7C;
+    font-weight: bold;
+}
+.titulo{
     font-size: 60px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     padding: 0;
     font-weight: 250;
 }
-.parrafo {
+.titulo2{
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    color: #737373;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     padding: 0;
-    font-weight: 100;
 }
-
 .botones{
     display: flex;
     gap: 11px;
-
 }
 
-.button { 
+.uno{
     padding: 15px 45px;
     font-size: 15px;
-    font-weight: 300;
-    background-color: red;
+    background-color: #96BB7C;
     color: white;
+    font-weight: 300;
     border-radius: 8px;
-    border: solid transparent;
+    border: solid 1px #96BB7C;
 
 }
-
-.button2 {
+.dos{
     padding: 15px 45px;
     font-size: 15px;
     background-color: transparent;
-    color: red;
+    color: #96BB7C;
     font-weight: 300;
     border-radius: 8px;
-    border: solid red 1px;
+    border: solid #96BB7C 1px;
 }
 
-.caja2 {
-    display: flex;
+.imagen{
+    width: 700px;
+    height: 680px;
+
+}
+
+.caja2{
+    width: 100vw;
+    height: 200px;
+    margin: -5px;
     padding: 60px;
-    flex-direction: column;
-    justify-content: center;
+    display: flex;
+    background-color: #ffffff;
     align-items: center;
-    height: 800px;
-    gap: 80px;
-    padding: 0 15px;
-
+    color: #96BB7C;
+    justify-content: center;
+    gap: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    font-weight: bold;
+    
+}
+.one{
+    font-size: 40px;
+    text-align: center;
+    
+    
+      
+}
+.two{
+    font-size: 40px;
+    text-align: center;
+}
+.three{
+    font-size: 40px;
+    text-align: center;
+}
+.four{
+    font-size: 40px;
+    text-align: center;
+}
+.puno{
+    color: black;
+    margin-top: -20px;
+    font-size: 10px;
+    text-align: center;
+}
+.pdos{
+    color: black;
+    margin-top: -20px;
+    font-size: 10px;
+    text-align: center;
+}
+.ptres{
+    color: black;
+    margin-top: -20px;
+    font-size: 10px;
+    text-align: center;
+}
+.pcuatro{
+    color: black;
+    margin-top: -20px;
+    font-size: 10px;
+    text-align: center;
 }
 
-h2{
-    font-size: 45px;
-    line-height: 50px;
-    width: 65%;
-    text-align: left;
+.caja3{
+    width: 100vw;
+    height: 500px;
+    margin: -5px;
+    padding: 60px;
+    *display: flex;
+    background-color: #FFF2F3;
+    *align-items: center;
+    color: black;
+   *justify-content: left;
+    gap: 35px;
+    font-weight: bold;
+    +font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.titulo3{
+    font-size: 55px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.container {
+.container{
     display: flex;
     flex-direction: row;
-    justify-content: left;
+    justify-content: center;
     gap: 30px;
     flex-wrap: wrap;
     padding: 0px;
-
 }
-.uno{
-    width: 300px;
+.cuadroinfo{
+    width: 270px;
     height: 200px;
-    padding: 50px;
+    padding: 45px;
     background-color: white;
     color: black;
     text-align: left;
-    box-shadow: 0px 13px 19px;
-    
-    
-}
-.imag{
-    border-radius: 200px;
-}
-
-h3 {
-    font-size: 15px;
-    line-height: 25px;
-    color: black;
+    box-shadow: 0px 5px 6px rgb(250, 248, 248);
 }
 .linea-roja {
     width: 50px;
@@ -136,61 +207,96 @@ h3 {
     margin: 10px 0;
     border: transparent;
 }
-.info {
-    font-size: 15px;
-    line-height: 20px;
-    color: black;
+.info{
+    color: #737373;
 }
-
-.caja3{
-    width: 100vw;
-    height: 700px;
-    margin: 0;
-    padding: 50px;
-    display: flex;
-    background-color: black;
-    align-items: center;
-    color: white;
-    justify-content: center;
-    flex-direction: column;
-
-}
-h1 {
-    font-size: 60px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
-    padding: 0;
-    margin: 0;
-}
-h4{
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 300;
-    padding: 0;
-    margin: 0px 0px 70px 0px;
-
-}
-
 .final{
+    width: 105vw;
+    height: 80px;
+    background-color: #FAFAFA;
     display: flex;
-    flex-direction: row;
-    gap: 55px;
-    font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
-    color:#fff ;
-    font-weight: 50px;
+    align-items: center;
+    +flex-direction: row;
+    justify-content: space-around;
+    color: #737373;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;   
 }
 
-footer{
-    background-color: #323030;
-    height: 100px;
-    margin: -50px;
-    padding: 0px 200px ;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-align: left;
-    justify-content: space-between;
-    width: 100vw;
+/* Media Queries para pantallas más pequeñas */
+
+/* Para pantallas de tablets (hasta 768px) */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+    }
+
+    .logo {
+        padding: 20px 0;
+        width: auto;
+        text-align: center;
+    }
+
+    .boton {
+        margin-right: 20px;
+    }
+
+    .titulo {
+        font-size: 40px;
+    }
+
+    .imagen {
+        width: 400px;
+        height: auto;
+    }
+
+    .botones {
+        flex-direction: column;
+    }
+}
+
+/* Para pantallas móviles (hasta 480px) */
+@media (max-width: 480px) {
+    header {
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+    }
+
+    .logo {
+        padding: 15px;
+        text-align: center;
+    }
+
+    .titulo {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .titulo2 {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .imagen {
+        width: 300px;
+        height: auto;
+    }
+
+    .caja1 {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .botones {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .final {
+        flex-direction: column;
+        height: auto;
+    }
 }
